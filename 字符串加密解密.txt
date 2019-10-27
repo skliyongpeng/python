@@ -1,0 +1,5 @@
+table=''.maketrans('abcdef123','uvwxyz@#$')
+s="Python is a greate programming language.I like it!"
+s.translate(table)
+
+'Python is u gryuty progrumming lunguugy.I liky it!'
